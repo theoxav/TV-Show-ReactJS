@@ -3,7 +3,7 @@ import s from "./style.module.css"
 export function Logo({ image, title, subtitle }) {
     return <>
         <div className={s.container}>
-            <img src={image} className={s.image} />
+            <img src={image} className={s.image} alt="logo" />
             <span className={s.title}>{title}</span>
         </div>
         <span className={s.subtitle}> {subtitle}</span>

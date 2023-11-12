@@ -1,4 +1,4 @@
-import s from "./style.module.css"
+// import s from "./style.module.css"
 import { StarFill, Star as StarEmpty, StarHalf } from "react-bootstrap-icons"
 
 export function FiveStarRating({ rating }) {
@@ -20,7 +20,7 @@ export function FiveStarRating({ rating }) {
     }
     // pusher dans le tableau les étoiles vides
     for (let i = 1; i <= emptyStarCount; i++) {
-        starList.push(<StarEmpty key={"star-fill" + i} />)
+        starList.push(<StarEmpty key={"star-empty" + i} />)
     }
 
     return (

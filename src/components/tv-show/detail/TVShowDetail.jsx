@@ -1,4 +1,4 @@
-import { FiveStarRating } from "../five-star-rating/FiveStarRating"
+import { FiveStarRating } from "../../five-star-rating/FiveStarRating"
 import s from "./style.module.css"
 
 export function TVShowDetail({ tvShow }) {
